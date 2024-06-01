@@ -1,0 +1,15 @@
+.container-app {
+    height: 100vh;
+    transition: color .5s,
+                background-color .2s !important;
+
+    &.dark-theme {
+        color: white;
+        background-color: #212529;
+    }
+
+    &.light-theme {
+        color: #212529;
+        background-color: white;
+    }
+}
